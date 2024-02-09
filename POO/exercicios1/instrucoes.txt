@@ -1,0 +1,49 @@
+1 - Classe Carro:
+
+Atributos: marca, modelo, ano de fabricação, cor.
+Métodos: getters e setters para todos os atributos, método para exibir informações do carro.
+
+2 - Classe Banco:
+
+Atributos: nome do banco, número da agência, saldo.
+Métodos: getters e setters para todos os atributos, método para depositar dinheiro, método para sacar dinheiro, método para exibir saldo.
+
+3 - Classe Produto:
+
+Atributos: nome, preço, quantidade em estoque.
+Métodos: getters e setters para todos os atributos, método para adicionar produtos ao estoque, método para vender produtos, método para exibir informações do produto.
+
+4 - Classe Aluno:
+
+Atributos: nome, idade, nota1, nota2, nota3.
+Métodos: getters e setters para todos os atributos, método para calcular a média das notas, método para verificar se o aluno foi aprovado (média >= 6.0).
+
+5 - Classe Livro:
+
+Atributos: título, autor, número de páginas, ano de publicação.
+Métodos: getters e setters para todos os atributos, método para verificar se o livro é antigo (publicado há mais de 50 anos), método para exibir informações do livro.
+
+6 - Classe Retângulo:
+
+Atributos: comprimento, largura.
+Métodos: getters e setters para os atributos, método para calcular a área do retângulo, método para calcular o perímetro do retângulo.
+
+7 - Classe ContaBancária:
+
+Atributos: titular, número da conta, saldo.
+Métodos: getters e setters para os atributos, método para depositar dinheiro, método para sacar dinheiro, método para exibir saldo.
+
+8 - Classe Animal:
+
+Atributos: nome, idade, tipo (mamífero, ave, réptil, etc.).
+Métodos: getters e setters para os atributos, método para emitir som (ex: "Miau", "Au Au", "Croc Croc"), método para exibir informações do animal.
+
+9 - Classe Triângulo:
+
+Atributos: lado1, lado2, lado3.
+Métodos: getters e setters para os atributos, método para verificar se é um triângulo válido, método para calcular o perímetro do triângulo, método para calcular a área do triângulo.
+
+10 - Classe Pessoa:
+
+Atributos: nome, altura, peso.
+Métodos: getters e setters para os atributos, método para calcular o IMC (Índice de Massa Corporal), método para exibir informações da pessoa.
