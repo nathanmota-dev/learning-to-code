@@ -9,6 +9,7 @@ O objetivo principal deste repositório é proporcionar um local centralizado pa
 ## Estrutura do Repositório
 
 - [POO - (Programação Orientada a Objetos)](./POO/java.md)
+- [TypeScript](/TypeScript/typescript.md)
 
 Além disso, cada pasta pode conter projetos práticos, exercícios ou exemplos para aplicar os conceitos aprendidos.
 
