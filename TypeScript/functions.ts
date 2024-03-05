@@ -29,3 +29,16 @@ const log = (message: string): void => {
     console.log(message);
     //usandor return em uma função void o TypeScript acusa erro
 }
+
+// Como usar interface com funções
+interface MathFunc {
+    (x: number, y: number): number;
+}
+
+const add: MathFunc = (x: number, y: number) => {
+    return x + y;
+}
+
+const subtract: MathFunc = (x: number, y: number) => {
+    return x - y;
+}
