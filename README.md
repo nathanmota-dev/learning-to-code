@@ -11,6 +11,7 @@ O objetivo principal deste repositório é proporcionar um local centralizado pa
 - [POO - (Programação Orientada a Objetos)](./POO/java.md)
 - [TypeScript](/TypeScript/typescript.md)
 - [Docker](/Docker/docker.md)
+- [Testes](/Testes/teste.md)
 
 Além disso, cada pasta pode conter projetos práticos, exercícios ou exemplos para aplicar os conceitos aprendidos.
 
