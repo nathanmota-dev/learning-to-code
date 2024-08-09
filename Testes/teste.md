@@ -46,3 +46,23 @@ São testes onde testamos a integração de duas ou mais unidades do código. Po
 
 Os testes End-2-End são testes que simulam a interação do usuário com a aplicação, ou seja, nesses testes nós testamos o fluxo completo do usuário na Aplicação. Nesses testes a gente não faz mock de nada, a gente testa a aplicação como um todo, então conseguimos testar a aplicação como se fosse um usuário real.
 Esse tipo de teste pode demorar muito mais tempo para ser executado por poder comunicar com API's, banco de dados, etc e por isso podem ser muito custosos e roubustos. Uma ferraenta muito utilizada para esse tipo de teste é o Cypress.
+
+### Aplicação
+
+Quando a gente utiliza:
+
+screen.getByText("Hello world!"); 
+
+o texto precisa ser exatamente igual ao que está na tela, se tiver um espaço a mais, um ponto a mais, ele não vai encontrar o texto.
+
+Para resolver isso, a gente pode utilizar expressões regulares, por exemplo:
+
+/change message/i onde a gente passa o texto que queremos encontrar dentro de barras.
+
+Alguns comandos que podemos utilizar:
+
+render - é uma função que renderiza o componente na tela, ou seja, ele vai renderizar o componente e vai retornar um objeto que tem várias funções que a gente pode utilizar para encontrar elementos na tela, como por exemplo getByText, getByRole, getByLabelText, etc.
+
+screen - é um objeto que tem várias funções que a gente pode utilizar para encontrar elementos na tela, como por exemplo getByText, getByRole, getByLabelText, etc. 
+
+fireEvent - é uma função que a gente pode utilizar para disparar eventos, como por exemplo, um clique em um botão, um clique em um input, etc.
