@@ -26,6 +26,10 @@ describe("App Component", () => {
         fireEvent.click(button);
 
         screen.getByText(/new message!/i);
+
+        const oldMessage = screen.queryByText("Let's learn more about testing in React");
+        
+        expect(oldMessage).toBeNull();
     });
 });
 

@@ -66,3 +66,23 @@ render - é uma função que renderiza o componente na tela, ou seja, ele vai re
 screen - é um objeto que tem várias funções que a gente pode utilizar para encontrar elementos na tela, como por exemplo getByText, getByRole, getByLabelText, etc. 
 
 fireEvent - é uma função que a gente pode utilizar para disparar eventos, como por exemplo, um clique em um botão, um clique em um input, etc.
+
+É possível também testar estilos (CSS) com o Jest e o React Testing Library ajuda nisso, como no exemplo:
+
+const button = screen.getByRole("button", {name: "Click me"});
+
+expect(button).toHaveStyle({backgroundColor: "red"})
+
+Onde basicamente a gente faz uma verificação se o botão tem o estilo de fundo vermelho. 
+
+Normalmente a gente não testa estilos porque não tem uma utilidade prática, não faz sentido numa aplicação ficar testando vários estilos como margem, padding, etc, mas em alguns casos pode ter sentido testar a cor de um botão, como por exemplo: Imagina que você tem um campo que desativado fica vermelho e ativado fica verde, aí você pode testar se o botão está vermelho ou verde.
+
+### getByText X queryByText
+
+Existe uma diferença entre getByText e queryByText, onde o getByText vai lançar um erro se não encontrar o texto na tela, já o queryByText vai retornar null se não encontrar o texto na tela, ou seja, o teste passa mesmo que o texto não seja encontrado. Caso você queira que o teste falhe se o texto não for encontrado, você pode utilizar o queryByText e fazer uma verificação se o texto é null, por exemplo:
+
+const oldMessage = screen.queryByText("Let's learn more about testing in React");
+        
+expect(oldMessage).toBeNull();
+
+também é possível usar o .not.toBeInTheDocument() que é uma função do Jest que verifica se o elemento não está na tela.
