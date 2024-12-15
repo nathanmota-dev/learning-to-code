@@ -12,6 +12,7 @@ O objetivo principal deste repositório é proporcionar um local centralizado pa
 - [TypeScript](/TypeScript/typescript.md)
 - [Docker](/Docker/docker.md)
 - [Testes](/Testes/teste.md)
+- [PHP](/PHP/PHP.md)
 
 Além disso, cada pasta pode conter projetos práticos, exercícios ou exemplos para aplicar os conceitos aprendidos.
 
