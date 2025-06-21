@@ -1,6 +1,6 @@
 # Repositório de Estudos e Conceitos de Programação
 
-Bem-vindo ao meu repositório! Este espaço foi criado para armazenar estudos e conceitos de programação que estou explorando ao longo do tempo.
+Este repositório foi criado para armazenar estudos e conceitos de programação que estou estudando ao longo do tempo.
 
 ## Objetivo
 
@@ -12,7 +12,8 @@ O objetivo principal deste repositório é proporcionar um local centralizado pa
 - [TypeScript](/TypeScript/typescript.md)
 - [Docker](/Docker/docker.md)
 - [Testes](/Testes/teste.md)
-- [PHP](/PHP/PHP.md)
+- [Rust](/Rust/README.md)
+- [AWS](/AWS/aws.md)
 
 Além disso, cada pasta pode conter projetos práticos, exercícios ou exemplos para aplicar os conceitos aprendidos.
 
